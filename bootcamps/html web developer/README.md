@@ -1,3 +1,5 @@
-# Projeto: Instagram
+# Projetos
 
-Recriação da página inicial do Instragam utilizando HTML e CSS.
+Lista de projetos desenvolvidos no bootcamp HTML Web Developer.
+ - instagram-copy
+ - netflix-clone
