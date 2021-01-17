@@ -1,4 +1,4 @@
 # Digital Innovation One
 
-Arquivos dos projetos realizados no cursos e nos bootcamps ofertados Digital Innovation One.
+Project files developed in bootcamps and Digital Innovation One courses.
 
