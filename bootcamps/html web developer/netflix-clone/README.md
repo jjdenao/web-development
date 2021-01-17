@@ -1,5 +1,5 @@
-# Projeto: NETFLIX
+# Project: NETFLIX
 
-Descrição: Através da utilização das linguagens HTML e JavaScript, e com o auxílio do OwlCarousel 2, busca-se clonar a tela inicial da Netflix.
+It recriates the Netflix home interface by using HTML, JavaScript and OwlCarousel 2 concepts. 
 
 ![Imagem do resultado final](./images/final-project.PNG)

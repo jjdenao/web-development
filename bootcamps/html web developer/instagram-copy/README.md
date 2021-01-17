@@ -1,5 +1,5 @@
-# Projeto: Instagram
+# Project: Instagram
 
-Descrição: consiste na aplicação de conceitos básicos de HTML e CSS para a recriação da página inicial do Instagram.
+It recreates the initial Instagram page by using HTML and CSS concepts.
 
 ![Foto do resultado final](./images/final-project.PNG)

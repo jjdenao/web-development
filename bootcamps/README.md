@@ -1,4 +1,4 @@
 # BOOTCAMPS
 
-Lista de Bootcamps realizados na Digital Innovation One.
+List of bootcamps offered by Digital Innovation One.
  - HTML Web Developer

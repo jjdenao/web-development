@@ -1,5 +1,5 @@
-# Projetos
+# Projects
 
-Lista de projetos desenvolvidos no bootcamp HTML Web Developer.
+List of projects accomplished in the HTML Web Developer bootcamp.
  - instagram-copy
  - netflix-clone
