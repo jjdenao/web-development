@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,100;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="container">
+        
+        <header>
+            <h1 id="main-title">College Tasks</h1>
+        </header>
+
+        <section id="information">
+            <div class="card">
+                <h3>
+                    <span>to-do</span>
+                </h3>
+                <p id="tasks-to-do">5</p>
+            </div>
+            <div class="card">
+                <h3>
+                    <span>done</span>
+                </h3>
+                <p id="tasks-done">3</p>
+            </div>
+            <div class="card">
+                <h3>
+                    <span>all</span>
+                </h3>
+                <p id="tasks-all">8</p>
+            </div>
+        </section>
+
+        <section id="add-info">
+            <div class="add-task">
+                <input type="text" placeholder="Add new task" id="add-task-field">
+                <button type='button' value="Add" id="button-task-submmit" onclick="Data.submit()">Add</button>
+                
+            </div>
+        </section>
+
+        <section id="table-tasks">
+            <ul id="tasks-list"></ul>
+        </section>
+
+        <section id="buttons-area">
+            <div class="buttons-container">
+                <button onclick="Tasks.selectAll()">select all</button>
+                <button onclick="Tasks.deselectAll()">deselect all</button>
+                <button onclick="Tasks.removeAll()">delete all</button>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

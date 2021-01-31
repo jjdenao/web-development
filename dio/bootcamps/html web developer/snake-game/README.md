@@ -1,4 +1,4 @@
-# Project Snake Game
+# Project: Snake Game
 
 It creates a simple and popular snake game.
 

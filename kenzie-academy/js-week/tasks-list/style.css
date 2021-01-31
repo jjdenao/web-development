@@ -1,0 +1,167 @@
+/* Global */
+:root{
+    --black: #393E41;
+    --purple: #9381FF;
+}
+
+* {
+    outline: nome;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f2f5;
+    font-family: 'Poppins', sans-serif;;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 100px auto 0;
+    background-color: var(--black);
+    padding: 3rem 2.5rem;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Header */
+
+#main-title {
+    margin-bottom: 1rem;
+    font-size: 225%;
+}
+
+/* Cards information*/
+
+#information {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    
+}
+
+.card {
+    background-color: var(--purple);
+    padding: 1.5rem 2rem;
+    border-radius: .25rem;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.card:hover {
+    background-color: #a798ff;
+}
+
+
+.card h3 span {
+    font-weight: normal;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card p {
+    font-weight: normal;
+    align-items: center;
+    text-align: center;
+    font-size: 250%;
+}
+
+/* Buttons and submmit*/
+
+#add-info .add-task {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+
+#add-info #add-task-field {
+    font-size: 18px;
+    padding: 1.5rem;
+}
+
+#add-info #button-task-submmit{
+    width: 100%;
+    max-width: 125px;
+    background: transparent;
+    color: var(--purple);
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid var(--purple);
+    cursor: pointer;
+    padding: 0 1rem;
+    margin-left: 10px;
+}
+
+#add-info #button-task-submmit:hover {
+    background-color: var(--purple);
+    border: 2px solid black;
+    color: black;
+}
+
+#buttons-area .buttons-container{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+#buttons-area .buttons-container button {
+    width: 100%;
+    height: 100%;
+    max-width: 135px;
+    max-height: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid var(--purple);
+    cursor: pointer;
+    padding: 1rem;
+    color: var(--purple);
+    font-weight: bold;
+    border-radius: 0.25rem;
+}
+
+#buttons-area .buttons-container button:hover {
+    background-color :#a798ff;
+    color: black;
+}
+
+/* Tasks */
+
+#table-tasks ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #9381FF;
+    padding: 1.5rem 2.5rem;
+    margin: .4rem -2.5rem;
+}
+
+#table-tasks ul li:hover{
+    background: #a090fd;
+}
+
+#table-tasks ul li .image-container{
+    margin-right: 2.5rem;
+}
+
+#table-tasks ul li label #task-title {
+    font-style: 16px;
+}
+
+#table-tasks ul li .task-title.completed{
+    opacity: 0.6;
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+
+
+
+
