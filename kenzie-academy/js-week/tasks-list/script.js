@@ -65,7 +65,6 @@ const Tasks = {
             if(inputElements[i].type === 'checkbox' && inputElements[i].checked === false){
                 toDo++;
                 liElements[i-1].querySelector('.task-title').classList.remove('completed');
-                console.log(liElements[i-1].querySelector('.task-title'));
             }
         };
         
@@ -81,7 +80,6 @@ const Tasks = {
             if(inputElements[i].type === 'checkbox' && inputElements[i].checked === true){
                 done++;
                 liElements[i-1].querySelector('.task-title').classList.add('completed');
-                console.log(liElements[i-1].querySelector('.task-title'));
             }
         };
         
